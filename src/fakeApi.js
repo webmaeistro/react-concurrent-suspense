@@ -58,17 +58,17 @@ function fetchPosts() {
         {
           id: 0,
           text:
-            "I get by with a little help from my friends"
+            "source of this experiment: https://github.com/webmaeistro/react-concurrent-suspense"
         },
         {
           id: 1,
           text:
-            "I'd like to be under the sea in an octupus's garden"
+            "OMG ARTHUR! I HAVE POCKETS!"
         },
         {
           id: 2,
           text:
-            "You got that sand all over your feet"
+            "Why are you telling me what you already know?!"
         }
       ]);
     }, 2000);
