@@ -43,7 +43,7 @@ function fetchUser() {
     setTimeout(() => {
       console.log("fetched user");
       resolve({
-        name: "Ringo Starr"
+        name: "Miss Alota Fagina"
       });
     }, 1000);
   });
