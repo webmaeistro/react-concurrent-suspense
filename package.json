@@ -1,8 +1,10 @@
 {
-  "name": "new",
-  "version": "1.0.0",
-  "description": "",
-  "keywords": [],
+  "name": "react-datafetch-suspense",
+  "version": "0.1.0",
+  "author": "Martin Andersen <marander@pm.me> (@webmaeistro)", 
+  "private": false, 
+  "description": "Suspense for Data Fetching is a new feature that lets you also use <Suspense> to declaratively “wait” for anything else, including data.",
+  "keywords": ["react", "suspense", "experimental"],
   "main": "src/index.js",
   "dependencies": {
     "react": "0.0.0-experimental-5faf377df",
