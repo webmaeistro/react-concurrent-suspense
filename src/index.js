@@ -20,7 +20,7 @@ function ProfilePage() {
     </Suspense>
   );
 }
-source: https://github.com/webmaeistro/react-concurrent-suspense
+
 function ProfileDetails() {
   // Try to read user info, although it might not have loaded yet
   const user = resource.user.read();
