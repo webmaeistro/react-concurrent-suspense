@@ -9,11 +9,11 @@ const resource = fetchProfileData();
 function ProfilePage() {
   return (
     <Suspense
-      fallback={<h1>Loading profile...</h1>}
+      fallback={<h1>suspense-Loading profile...</h1>}
     >
       <ProfileDetails />
       <Suspense
-        fallback={<h1>Loading posts...</h1>}
+        fallback={<h1>suspense-Loading posts...</h1>}
       >
         <ProfileTimeline />
       </Suspense>
