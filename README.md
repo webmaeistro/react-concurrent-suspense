@@ -1,4 +1,7 @@
+
 # react-datafetch-suspense-used
+
+demo:https://react-suspense-experimental.netlify.app/
 
 testing suspense experimental-react
 
@@ -13,3 +16,6 @@ const ProfilePage = React.lazy(() => import('./ProfilePage')); // Lazy-loaded
 </Suspense>
 ```
 Suspense for Data Fetching is a new feature that lets you also use <Suspense> to declaratively “wait” for anything else, including data. This page focuses on the data fetching use case, but it can also wait for images, scripts, or other asynchronous work.
+
+experiment by:
+Martin Andersen (@webmaeistro) <marander@pm.me>
